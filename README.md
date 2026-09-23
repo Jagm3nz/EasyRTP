@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="SurfaceRTP - random teleport with safe landing" width="100%">
+<img src="assets/surfacertp-banner.svg" alt="SurfaceRTP - random teleport with safe landing" width="100%">
 
 ### Random teleport that always lands players on solid ground.
 Never underground. Never in the air. Never in water.
