@@ -1,20 +1,20 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="EasyRTP - random teleport with safe landing" width="100%">
+<img src="assets/banner.svg" alt="SurfaceRTP - random teleport with safe landing" width="100%">
 
 ### Random teleport that always lands players on solid ground.
 Never underground. Never in the air. Never in water.
 
 <br>
 
-[![Download](https://img.shields.io/badge/Download-latest%20release-5dab3b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jagm3nz/EasyRTP/releases/latest)
+[![Download](https://img.shields.io/badge/Download-latest%20release-5dab3b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jagm3nz/SurfaceRTP/releases/latest)
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.18%20%E2%80%93%201.21.11-5dab3b?style=flat-square)
 ![Platforms](https://img.shields.io/badge/Spigot%20%7C%20Paper%20%7C%20Purpur-supported-8e5bff?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-17%2B-f89820?style=flat-square&logo=openjdk&logoColor=white)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-5ee6ff?style=flat-square)
-[![Release](https://img.shields.io/github/v/release/Jagm3nz/EasyRTP?style=flat-square&color=c77dff&label=release)](https://github.com/Jagm3nz/EasyRTP/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/Jagm3nz/EasyRTP/total?style=flat-square&color=c77dff)](https://github.com/Jagm3nz/EasyRTP/releases)
+[![Release](https://img.shields.io/github/v/release/Jagm3nz/SurfaceRTP?style=flat-square&color=c77dff&label=release)](https://github.com/Jagm3nz/SurfaceRTP/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Jagm3nz/SurfaceRTP/total?style=flat-square&color=c77dff)](https://github.com/Jagm3nz/SurfaceRTP/releases)
 
 </div>
 
@@ -35,10 +35,10 @@ Never underground. Never in the air. Never in water.
 
 ## 📥 Installation
 
-1. Download **`EasyRTP-<version>.jar`** from the [**latest release**](https://github.com/Jagm3nz/EasyRTP/releases/latest).
+1. Download **`SurfaceRTP-<version>.jar`** from the [**latest release**](https://github.com/Jagm3nz/SurfaceRTP/releases/latest).
 2. Put it into your server's `plugins` folder.
 3. Restart the server.
-4. *(Optional)* Adjust `plugins/EasyRTP/config.yml` and run `/rtp reload`.
+4. *(Optional)* Adjust `plugins/SurfaceRTP/config.yml` and run `/rtp reload`.
 
 That's it - `/rtp` works right away with sensible defaults.
 
@@ -80,7 +80,7 @@ That's it - `/rtp` works right away with sensible defaults.
 
 ## 🛡️ How safe landing works
 
-For every candidate location EasyRTP checks that:
+For every candidate location SurfaceRTP checks that:
 
 - ✅ the block underfoot is **solid land** - not water, lava, magma, cactus, fire, logs, leaves, fences or walls
 - ✅ there are **two free blocks** for the player's feet and head
@@ -110,7 +110,7 @@ The most important options:
 
 ```yaml
 # ==========================================
-#          EasyRTP - configuration
+#        SurfaceRTP - configuration
 # ==========================================
 # This file is created automatically on the first server start.
 # After editing, run: /rtp reload (or restart the server)
@@ -240,7 +240,7 @@ effects:
 # Colors: &a, &l etc. and HEX: &#00FFAA. Empty message ("") = send nothing.
 # Placeholders: {x} {y} {z} {world} {seconds} {time} {player}
 messages:
-  prefix: "&8[&bEasyRTP&8] &r"
+  prefix: "&8[&bSurfaceRTP&8] &r"
   warmup: "&7Teleporting in &b{seconds}s&7. Don't move!"
   actionbar: "&7Teleporting in &b{seconds}s"
   searching: "&7Searching for a safe location..."
@@ -275,7 +275,7 @@ Plugin updates never overwrite your changes - new options are added automaticall
 <details>
 <summary><b>Does it work on Paper / Purpur?</b></summary>
 
-Yes. On Paper and its forks EasyRTP loads chunks asynchronously, which makes it even smoother than on Spigot.
+Yes. On Paper and its forks SurfaceRTP loads chunks asynchronously, which makes it even smoother than on Spigot.
 </details>
 
 <details>
@@ -299,16 +299,16 @@ It is disabled by default - see `disabled-worlds`. Players using `/rtp` there ar
 <details>
 <summary><b>Another plugin also uses <code>/rtp</code>.</b></summary>
 
-Use `/easyrtp:rtp`, or disable the other plugin's command. EasyRTP also registers `/wild` and `/randomtp`.
+Use `/surfacertp:rtp`, or disable the other plugin's command. SurfaceRTP also registers `/wild` and `/randomtp`.
 </details>
 
 ## 🐞 Support
 
-Found a bug or have an idea? [Open an issue](https://github.com/Jagm3nz/EasyRTP/issues) - please include your server version (`/version`) and any errors from the console.
+Found a bug or have an idea? [Open an issue](https://github.com/Jagm3nz/SurfaceRTP/issues) - please include your server version (`/version`) and any errors from the console.
 
 ## 📜 License
 
-EasyRTP is **free to use** on any server, including commercial ones. Redistribution and re-uploading are not allowed - see [LICENSE](LICENSE.md).
+SurfaceRTP is **free to use** on any server, including commercial ones. Redistribution and re-uploading are not allowed - see [LICENSE](LICENSE.md).
 
 <div align="center">
 <br>

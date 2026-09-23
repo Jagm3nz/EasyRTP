@@ -821,8 +821,8 @@
   <path d="M 1012 252 L 1018 258 L 1029 245" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" text-anchor="middle" shape-rendering="geometricPrecision">
-  <text x="640" y="128" font-size="104" font-weight="800" letter-spacing="2" fill="#000000" opacity="0.35" transform="translate(4 5)">Easy<tspan>RTP</tspan></text>
-  <text x="640" y="128" font-size="104" font-weight="800" letter-spacing="2" fill="#ffffff">Easy<tspan fill="url(#rtp)">RTP</tspan></text>
+  <text x="640" y="128" font-size="104" font-weight="800" letter-spacing="2" fill="#000000" opacity="0.35" transform="translate(4 5)">Surface<tspan>RTP</tspan></text>
+  <text x="640" y="128" font-size="104" font-weight="800" letter-spacing="2" fill="#ffffff">Surface<tspan fill="url(#rtp)">RTP</tspan></text>
   <text x="640" y="176" font-size="26" font-weight="500" fill="#c9c3f2" letter-spacing="1">Random teleport  ·  Safe landing  ·  Zero setup</text>
 </g>
 </svg>
