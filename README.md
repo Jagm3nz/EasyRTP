@@ -302,6 +302,20 @@ It is disabled by default - see `disabled-worlds`. Players using `/rtp` there ar
 Use `/surfacertp:rtp`, or disable the other plugin's command. SurfaceRTP also registers `/wild` and `/randomtp`.
 </details>
 
+## 🔌 For developers
+
+Want to send players on a random teleport from your own plugin? No API dependency needed -
+copy [`integration/SurfaceRtpHook.java`](integration/SurfaceRtpHook.java) into your project:
+
+```java
+SurfaceRtpHook.teleport(player);                  // random spot in the player's current world
+SurfaceRtpHook.teleport(player, "world_nether");  // ...or in a specific world
+```
+
+Both methods return `false` when SurfaceRTP is not installed, so your plugin keeps working without it.
+
+Add `softdepend: [SurfaceRTP]` to your `plugin.yml` so SurfaceRTP loads before your plugin.
+
 ## 🐞 Support
 
 Found a bug or have an idea? [Open an issue](https://github.com/Jagm3nz/SurfaceRTP/issues) - please include your server version (`/version`) and any errors from the console.
