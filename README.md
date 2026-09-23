@@ -22,7 +22,7 @@ Never underground. Never in the air. Never in water.
 
 ## ✨ Features
 
-|   |   |
+| Feature | What it does |
 |---|---|
 | 🛡️ **Safe landing** | Players always land on the surface of solid land - never in caves, water, lava, trees or mid-air. |
 | 📏 **Range from the player** | Picks a spot up to **10,000 blocks** on X and Z from where the player stands (fully configurable). |
